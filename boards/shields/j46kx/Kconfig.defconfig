@@ -1,0 +1,16 @@
+if SHIELD_J46KX_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "J46Kx"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_J46KX_LEFT || SHIELD_J46KX_RIGHT
+
+config ZMK_SPLIT 
+    default y
+
+endif
