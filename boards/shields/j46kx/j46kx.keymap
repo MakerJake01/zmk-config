@@ -23,8 +23,8 @@
         compatible = "zmk,combos";
         combo_gaming  {
             timeout-ms = <TIMEOUT>;
-            key-positions = <1 5>
-            bindings = <&tog GTA>
+            key-positions = <1 5>;
+            bindings = <&tog GTA>;
         }
     }
 }
