@@ -25,9 +25,9 @@
             timeout-ms = <TIMEOUT>;
             key-positions = <1 5>;
             bindings = <&tog GTA>;
-        }
-    }
-}
+        };
+    };
+};
 
 / {
     keymap {
