@@ -1,0 +1,5 @@
+config SHIELD_J46KXV2_LEFT
+    def_bool $(shields_list_contains,j46kxv2_left)
+
+config SHIELD_J46KXV2_RIGHT
+    def_bool $(shields_list_contains,j46kxv2_right)
