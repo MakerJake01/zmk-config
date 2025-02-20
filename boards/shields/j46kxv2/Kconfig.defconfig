@@ -6,6 +6,9 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config SPI
+    default y
+
 endif
 
 if SHIELD_J46KXV2_LEFT || SHIELD_J46KXV2_RIGHT
@@ -14,6 +17,3 @@ config ZMK_SPLIT
     default y
 
 endif
-
-config SPI
-    default y
