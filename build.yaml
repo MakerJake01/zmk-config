@@ -19,6 +19,8 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: j46kx_left
+    #shield: j46kx_left
+    shield: j46kxv2_left
   - board: seeeduino_xiao_ble
-    shield: j46kx_right
+    #shield: j46kx_right
+    shield: j46kxv2_right
